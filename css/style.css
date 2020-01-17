@@ -20,6 +20,8 @@
       content: attr(data-src-800px, url);
   }
 }
+
+
 * {
   box-sizing: border-box;
 }
@@ -99,7 +101,7 @@ form {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 0 7px;
   height: 100%;
   text-align: center;
 }
@@ -240,7 +242,7 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 10px;
   text-align: center;
   top: 0;
   height: 100%;
@@ -283,4 +285,12 @@ footer i {
 footer a {
   color: #3c97bf;
   text-decoration: none;
+}
+
+@media  (min-width:40rem){
+  form{
+    padding: 0 25px;
+  }
+
+
 }
