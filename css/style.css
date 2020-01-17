@@ -36,7 +36,6 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
-  margin: -20px 0 50px;
 }
 
 h1 {
@@ -273,11 +272,8 @@ input {
 }
 
 footer{
-  margin-top: 5rem;
-  padding: 0.5rem;
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.575);
 }
 
 @media  (min-width:40rem){
