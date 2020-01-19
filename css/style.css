@@ -119,10 +119,10 @@ body {
 
 footer {
     text-align: center;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 18rem;
+    margin-top: 9rem;
     padding: 1rem;
     background-color: #1f1f1f91;
     color: white;
