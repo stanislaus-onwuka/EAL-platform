@@ -127,3 +127,7 @@ footer {
     background-color: #1f1f1f91;
     color: white;
 }
+
+footer p{
+    margin-bottom: 0;
+}
