@@ -76,9 +76,8 @@ body {
     position: relative;
     z-index: 1;
     display: inline-block;
-    margin: 1rem;
+    margin: 3rem;
     text-align: center;
-    padding: 4rem;
 }
 
 .btn{
