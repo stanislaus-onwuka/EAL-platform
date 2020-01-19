@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #964b000f;
+}
+
+/* Homepage & Dept page */
+
+.bg-dark{
+    background-color: #B03060 !important;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+
+.cat {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat a{
+    text-decoration: none;
+    color: black;
+}
+
+.catitem {
+    cursor: pointer;
+    background-color: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.catitem:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.catitem a{
+    color: #000;
+    text-decoration: none;
+}
+body {
+    overflow-x: hidden;
+}
+
+.card-wrapper {
+    overflow: auto;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 50%;
+    margin-right: 30px;
+    flex-shrink: 0;
+    height: auto;
+    text-align: center;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 9px;
+}
+
+.cardimg {
+    width: auto;
+    height: 120px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #eee;
+
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #eee;
+    border-radius: 7px;
+}
+
+/* Courses */
+
+.course-collection{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+    grid-gap: 5px;
+}
+
+.course-title{
+    text-align: center;
+    margin: auto;
+}
+
+.course{
+    padding: 1rem;
+    background-color: #964b000f;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.course-video{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+
+.course-notes{
+    list-style: none;
+}
+
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 18rem;
+    padding: 1rem;
+    background-color: #1f1f1f91;
+    color: white;
+}

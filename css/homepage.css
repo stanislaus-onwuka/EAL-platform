@@ -1,3 +1,9 @@
+.bg-dark{
+    background-color: #B03060 !important;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+
 .cat {
     display: flex;
     flex-wrap: wrap;
@@ -22,6 +28,7 @@ body {
 .card-wrapper {
     overflow: auto;
     display: flex;
+    
 }
 
 .card {
@@ -30,6 +37,16 @@ body {
     flex-shrink: 0;
     height: auto;
     text-align: center;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 9px;
+}
+
+.cardimg {
+    width: auto;
+    height: 120px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    box-shadow: 0px 3px 6px #00000029;
 }
 
 ::-webkit-scrollbar {
@@ -48,10 +65,6 @@ body {
     border-radius: 7px;
 }
 
-.cardimg {
-    width: auto;
-    height: 120px;
-}
 
 footer {
     text-align: center;
