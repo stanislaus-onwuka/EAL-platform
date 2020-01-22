@@ -7,6 +7,10 @@ body{
     background-color: #964b000f;
 }
 
+.container{
+    padding: 0;
+}
+
 /* Homepage & Dept page */
 
 .bg-dark{
@@ -87,10 +91,55 @@ body {
     border-radius: 7px;
 }
 
+/* Levels */
+
+.levels-div{
+    background-color: #b030601a;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.level{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none !important;
+    text-align: center;
+    color: #964b00ba;
+    width: 15%;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+
+.level:hover{
+    background-color: #964b00ea;
+    color: #fff;
+}
+
+
+.level:active{
+    background-color: #964b00ea;
+    color: #fff;
+}
+
+#default-course-page h3{
+    margin: 4rem auto;
+    padding: 10rem 2rem;
+    text-align: center;
+    color: #0000004a;
+}
+
+.welcome-text{
+    padding: 1rem;
+    margin: 1rem;
+}
+
 /* Courses */
 
 .course-collection{
-    display: grid;
+    display: none;
     grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
     grid-gap: 5px;
 }
@@ -119,7 +168,7 @@ body {
 
 footer {
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     margin-top: 9rem;
@@ -130,4 +179,25 @@ footer {
 
 footer p{
     margin-bottom: 0;
+}
+
+@media(min-width:25rem){
+    .level{
+        padding: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media(min-width:40rem){
+    .container{
+        padding: 0 15px 0 15px;
+    }
+    
+}
+
+@media(min-width:61rem){
+    .level{
+        width: 18%;
+    }
 }

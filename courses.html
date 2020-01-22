@@ -21,22 +21,9 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                     <a class="nav-link" href="./homepage.html">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown"></li>
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Level
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">100</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">200</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">300</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">400</a>
-                    </div>
                     <li class="nav-item">
                     <a class="nav-link" href="./index.html">Logout</a>
                     </li>
@@ -51,8 +38,29 @@
         </nav>
     </header>
     <main>
+        <div class="levels-div">
+            <p class="level">
+                100L
+            </p>
+            <p class="level">
+                200L
+            </p>
+            <p class="level">
+                300L
+            </p>
+            <p class="level">
+                400L
+            </p>
+            <p class="level">
+                500L
+            </p>
+        </div>
         <section class="container">
-            <h3>Courses Available</h3>
+            
+            <div id="default-course-page">
+                <h3>Pick a Level</h3>
+            </div>
+            <!-- <h3>Courses Available</h3> -->
             <div class="course-collection">
                 <div class="course">
                     <h5 class="course-title">Course Title</h5>
@@ -140,8 +148,11 @@
     <footer>
         <p>&copy; EAL Platform 2020</p>
     </footer>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./scripts/courses.js"></script>
 </body>
 </html>
