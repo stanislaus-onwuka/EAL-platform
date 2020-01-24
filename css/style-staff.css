@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #964b000f;
+}
+
+.container{
+    padding: 0;
+}
+
+.navbar-brand img{
+    width: 70px;
+    height: 50px;
+}
+
+.bg-dark{
+    background-color: #B03060 !important;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+/* Homepage*/
+.staff-welcome-div{
+    margin: 2rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+/* Courses page */
+.card{
+    margin: auto;
+    width: 100%;
+}
+

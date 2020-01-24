@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-staff.css">
+    <title>EAL Platform | Courses(ADMIN)</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/EAL LOGO.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="./homepage.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Add new course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">View all courses</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Logout</a>
+                    </li>
+                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h3 id="welcome"></h3>
+
+            <div class="homepage">
+                <h3>Courses Uploaded</h3>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Course Title
+                            </button>
+                        </h2>
+                        </div>
+                    
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <video class="course-video"></video>
+                            <ul class="course-notes">
+                                <a href="#" download="#"><li>Note 1</li></a>
+                                <a href="#" download="#"><li>Note 2</li></a>
+                                <a href="#" download="#"><li>Note 3</li></a>
+                            </ul>
+                            <a href="#" class="course-youtube">Check course out on YouTube</a>
+
+                            <div class="course-options">
+                                <a class="edit-course">Edit</a>
+                                <a class="delete-course">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Course Title
+                            </button>
+                        </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <video class="course-video"></video>
+                            <ul class="course-notes">
+                                <a href="#" download="#"><li>Note 1</li></a>
+                                <a href="#" download="#"><li>Note 2</li></a>
+                                <a href="#" download="#"><li>Note 3</li></a>
+                            </ul>
+                            <a href="#" class="course-youtube">Check course out on YouTube</a>
+
+                            <div class="course-options">
+                                <a class="edit-course">Edit</a>
+                                <a class="delete-course">Delete</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Course Title
+                            </button>
+                        </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <video class="course-video"></video>
+                            <ul class="course-notes">
+                                <a href="#" download="#"><li>Note 1</li></a>
+                                <a href="#" download="#"><li>Note 2</li></a>
+                                <a href="#" download="#"><li>Note 3</li></a>
+                            </ul>
+                            <a href="#" class="course-youtube">Check course out on YouTube</a>
+
+                            <div class="course-options">
+                                <a class="edit-course">Edit</a>
+                                <a class="delete-course">Delete</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="default-page">
+                    <h2>No Courses uploaded, click <a href="#">here</a> to add</h2>
+                </div> -->
+                
+                
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; EAL Platform 2020</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+</html>
